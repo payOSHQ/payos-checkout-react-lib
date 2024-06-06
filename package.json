@@ -1,6 +1,6 @@
 {
   "name": "payos-checkout",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -22,7 +22,7 @@
   "author": "Casso",
   "license": "ISC",
   "repository": {
-    "url": "https://github.com/payOSHQ/payos-checkout-lib-fe"
+    "url": "https://github.com/payOSHQ/payos-checkout-react-lib"
   },
   "devDependencies": {
     "typescript": "^5.2.2"

@@ -7,6 +7,6 @@ export interface PayOSConfig {
     onCancel?: (event: any) => void;
 }
 export declare function usePayOS(config: PayOSConfig): {
-    open: () => void;
+    open: (isEmbedded?: boolean) => void;
     exit: () => void;
 };
