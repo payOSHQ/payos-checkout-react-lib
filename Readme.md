@@ -50,5 +50,5 @@ Parameters in events:
 
 ### 4. Security
 
-- `CHECKOUT_URL` must be a payOS checkout URL of the form `https://pay.payos.vn/web/<id>` (or `https://dev.pay.payos.vn/web/<id>`). Otherwise `open()` logs an error and does nothing.
+- `CHECKOUT_URL` must be a payOS checkout URL of the form `https://pay.payos.vn/web/<id>`. Otherwise `open()` logs an error and does nothing.
 - `onSuccess` is a UX signal only. Always confirm the payment on your server via a verified webhook or the payment-link API before fulfilling the order.
